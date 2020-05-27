@@ -1,0 +1,38 @@
+name: name_of_thing
+homepage: https_homepage
+
+docs: https_docs
+installation: https_installation
+repo: https_github
+
+
+installcommand: |
+  brew_install_this_thing
+
+like:
+  - std_utility_this_replaces
+
+tagline: |
+  verbatim_copy_from_official_page
+
+description: |
+  lorem_ipsum_my_thoughts_in_markdown
+
+links:
+  - title: related_article_1
+    url: http_article_1
+
+  - title: related_article_2
+    url: http_article_2
+
+
+examples:
+  - title: name_of_example
+    command:
+      example_command_code_with_flags
+
+
+
+images:
+  preview: images/previews/preview.jpg
+  gifplay: images/gifs/gifplay.gif
