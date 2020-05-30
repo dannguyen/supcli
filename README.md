@@ -58,28 +58,12 @@ ping:
     github: https://github.com/denilsonsa/prettyping
 
 
-du:
-  ndcu:
-    urls: 
-      home: https://dev.yorhel.nl/ncdu
-      repo: https://code.blicky.net/yorhel/ncdu
-    install:
-      url: https://formulae.brew.sh/formula/ncdu
-      brew: brew install ncdu
-
-
 ls:
   nnn:
     repo: https://github.com/jarun/nnn
     install: https://github.com/jarun/nnn/wiki/Usage#installation
     brew: `brew install nnn`
 
-curl:
-  httpie: 
-    home: https://httpie.org/
-    docs: https://httpie.org/docs
-    install: https://httpie.org/
-    repo: https://github.com/jakubroztocil/httpie
 
 excel/sc: 
   sc-im:

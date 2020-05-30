@@ -1,0 +1,40 @@
+name: HTTPie
+homepage: https://httpie.org/
+
+docs: https://httpie.org/docs
+installation: https://httpie.org/docs#installation
+repo: https://github.com/jakubroztocil/httpie
+
+
+installcommand: |
+  brew install httpie
+
+like:
+  - curl
+
+tagline: |
+  HTTPie is a command line HTTP client with an intuitive UI, JSON support, syntax highlighting, wget-like downloads, plugins, and more.
+
+
+
+description: |
+  lorem_ipsum_my_thoughts_in_markdown
+
+links:
+  - title: HN thread (2015)
+    url: https://news.ycombinator.com/item?id=10418882
+
+  - title: HN thread (2019)
+    url: https://news.ycombinator.com/item?id=21674729
+
+
+examples:
+  - title: name_of_example
+    command:
+      example_command_code_with_flags
+
+
+
+images:
+  preview: images/previews/preview.jpg
+  gifplay: images/gifs/gifplay.gif

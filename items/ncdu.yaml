@@ -1,0 +1,36 @@
+name: ncdu
+homepage: https://dev.yorhel.nl/ncdu
+docs: https://dev.yorhel.nl/ncdu/man
+repo: https://code.blicky.net/yorhel/ncdu
+
+
+installcommand: |
+  brew install ncdu
+
+like:
+  - du
+
+tagline: |
+  Ncdu is a disk usage analyzer with an ncurses interface.
+
+description: |
+  lorem_ipsum_my_thoughts_in_markdown
+
+links:
+  - title: 'Linux: ncdu and mc to manage large directories'
+    url: https://haydenjames.io/linux-ncdu-manage-large-directories/
+
+  - title: Check disk space usage on linux with Ncdu
+    url: https://www.binarytides.com/check-disk-usage-linux-ncdu/
+
+
+examples:
+  - title: name_of_example
+    command:
+      example_command_code_with_flags
+
+
+
+images:
+  preview: images/previews/preview.jpg
+  gifplay: images/gifs/gifplay.gif
