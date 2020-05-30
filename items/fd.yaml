@@ -1,0 +1,36 @@
+name: fd
+
+docs: https://github.com/sharkdp/fd#fd
+installation: https://github.com/sharkdp/fd#installation
+repo: https://github.com/sharkdp/fd
+
+
+installcommand: |
+  brew install fd
+
+like:
+  - find
+  - locate
+
+tagline: |
+  A simple, fast and user-friendly alternative to 'find'
+
+
+description: |
+  lorem_ipsum_my_thoughts_in_markdown
+
+links:
+  - title: How to Use fd to Quickly Find Files in Linux and macOS
+    url: https://www.maketecheasier.com/use-fd-find-files-linux-macos/
+
+
+examples:
+  - title: Match files with 'csv'
+    command:
+      --type file csv ~/Dropbox
+
+
+
+images:
+  preview: images/previews/preview.jpg
+  gifplay: images/gifs/gifplay.gif

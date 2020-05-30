@@ -1,0 +1,38 @@
+name: fzf
+
+docs: https://github.com/junegunn/fzf#usage
+installation: https://github.com/junegunn/fzf#installation
+repo: https://github.com/junegunn/fzf
+
+
+installcommand: |
+  brew install fzf
+
+
+like:
+  - find
+  - history
+
+tagline: |
+  🌸 A command-line fuzzy finder
+
+
+description: |
+  lorem_ipsum_my_thoughts_in_markdown
+
+links:
+  - title: How FZF and ripgrep improved my workflow
+    url: https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
+
+
+examples:
+  - title: name_of_example
+    command:
+      example_command_code_with_flags
+
+
+
+images:
+  preview: images/previews/preview.jpg
+  gifplay: images/gifs/gifplay.gif
+
