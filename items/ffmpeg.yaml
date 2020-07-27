@@ -1,0 +1,7 @@
+
+
+examples:
+  - title: Convert .mov file to .mp4
+    code: |
+
+       ffmpeg -i IMG_0001.MOV  -vcodec h264 -acodec aac output.mp4

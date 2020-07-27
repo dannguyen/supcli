@@ -1,0 +1,38 @@
+name: sox
+homepage: https_homepage
+
+docs: https://linux.die.net/man/1/sox
+installation: https_installation
+repo: https://sourceforge.net/p/sox/code/ci/master/tree/
+
+
+installcommand: |
+  brew_install_this_thing
+
+like:
+  - std_utility_this_replaces
+
+tagline: |
+  SoX reads and writes audio files in most popular formats and can optionally apply effects to them
+
+description: |
+  lorem_ipsum_my_thoughts_in_markdown
+
+links:
+  - title: related_article_1
+    url: http_article_1
+
+  - title: related_article_2
+    url: http_article_2
+
+
+examples:
+  - title: name_of_example
+    command:
+      example_command_code_with_flags
+
+
+
+images:
+  preview: images/previews/preview.jpg
+  gifplay: images/gifs/gifplay.gif

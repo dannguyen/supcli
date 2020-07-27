@@ -6,6 +6,8 @@ installation: https://github.com/BurntSushi/ripgrep#installation
 repo: https://github.com/BurntSushi/ripgrep
 
 
+
+
 installcommand: brew install ripgrep
 
 like:
@@ -17,6 +19,8 @@ tagline: |
 description: |
   TODO: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptate animi dicta labore necessitatibus, delectus blanditiis atque nostrum fugit consequatur, iusto doloribus dolores, nam nemo accusamus illo assumenda magnam corporis.
 
+  TKTK WARNING: rg, unlike ack, does not support lookahead/lookarounds
+  https://github.com/BurntSushi/ripgrep/issues/644
 
 links:
   - title: ripgrep is faster than {grep, ag, git grep, ucg, pt, sift}
@@ -31,3 +35,27 @@ links:
     url: https://news.ycombinator.com/item?id=12567328
   - title: How FZF and ripgrep improved my workflow
     url: https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
+
+
+
+examples:
+  - title: Find by filename
+    code: |
+
+        rg -l 're\b' .
+
+  - title: Replace matched pattern with output, including groups
+    code: |
+      rg 'title: (.+)' items/ripgrep.yaml -Nor 'name: $1'
+    full: |
+      rg 'title: (.+)' items/ripgrep.yaml --no-line-number --output --replace 'name: $1'
+
+
+  - title: Include filename and line number
+    code: |
+      rg '\d{5}+' . -H --no-heading
+
+  - title: Sed like substitution
+    code: |
+      printf '%s\n' 'date' '12/03/2014' '07/27/1990' \
+        | rg '(\d{2})/(\d{2})/(\d{4})' --passthru -r '$3-$1-$2'
